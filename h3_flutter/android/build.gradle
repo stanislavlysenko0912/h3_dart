@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.example.h3_flutter'
+    
     compileSdkVersion 31
 
     compileOptions {
